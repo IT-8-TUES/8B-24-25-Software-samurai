@@ -56,6 +56,7 @@ nav a:hover {
 }
 
 section {
+  height: 800px;
   max-width: 900px;
   width: 90%;
   margin: 30px;
@@ -108,4 +109,23 @@ p a {
   border-radius: 8px;
   transition: background-color 0.3s ease;
   text-decoration: none;
+}
+
+#clothes {
+  background-image: url('https://s.alicdn.com/@sc04/kf/H91543903d9164bb7b244122884dc16cc3.jpg_720x720q50.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+#clothes h2 {
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  bottom: 400px;
+  position: relative;
+}
+
+#clothes a {
+  text-decoration: none;
+
 }
