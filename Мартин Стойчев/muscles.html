@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit</title>
+    <link rel="stylesheet" href="css of muscles.css">
+</head>
+<body>
+
+     <header>
+        <img src="weightlifting.png" alt="logo" class="logo">
+        <h1>PowerFit Gym</h1>
+    </header>
+
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="calories.html">Calories Calculator</a>
+        <a href="foodtracker.html">Food Tracker</a>
+    </nav>
+
+    <!-- Секция с изображения на тялото -->
+    <div class="body-section">
+        <!-- Предна част на тялото -->
+        <div class="body-part">
+            <h2>Предна част</h2>
+            <svg width="200" height="400">
+                <!-- Пример за мускул (гръден) -->
+                <rect class="muscle" x="60" y="100" width="80" height="60" data-muscle="гръден" />
+                <!-- Пример за мускул (бицепс) -->
+                <rect class="muscle" x="30" y="180" width="40" height="60" data-muscle="бицепс" />
+                <!-- Добави още мускули тук -->
+            </svg>
+        </div>
+        <!-- Задна част на тялото -->
+        <div class="body-part">
+            <h2>Задна част</h2>
+            <svg width="200" height="400">
+                <!-- Пример за мускул (трапец) -->
+                <rect class="muscle" x="60" y="80" width="80" height="50" data-muscle="трапец" />
+                <!-- Пример за мускул (глутеус) -->
+                <rect class="muscle" x="60" y="200" width="80" height="80" data-muscle="глутеус" />
+                <!-- Добави още мускули тук -->
+            </svg>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 PowerFit. All rights reserved.</p>
+        <p>
+            <a href="about.html">About Us</a> |
+            <a href="about.html#Contact Us">Contact Us</a> 
+        </p>
+    </footer>
+
+    <script src="java of muscles.js"></script>
+</body>
+</html>
