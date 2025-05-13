@@ -70,7 +70,7 @@ section {
 }
 
 h2 {
-  color: darkblue; 
+  color: white; 
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -95,7 +95,7 @@ footer a:hover{
 }
 
 p a {
-  color: navy; 
+  color: white; 
   text-decoration: none;
 }
 
@@ -111,12 +111,12 @@ p a {
 }
 
 .button:hover {
-  background-color: mediumturquoise;
+  background-color: orange;
   color: white;
 }
 
 .hero-section {
-    background-image: url('https://media.gq-magazine.co.uk/photos/66475ecbcf1b545facd5ef5b/master/w_1600%2Cc_limit/strength_training_vs_cardio__0000_GettyImages-1452574896.jpeg');
+    background-image: url('https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2024/02/45.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -124,6 +124,13 @@ p a {
 
 .Welcome{
     background-image: url('welcomeImage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.Explore{
+    background-image: url('https://cdn.shopify.com/s/files/1/0141/5242/t/16/assets/fitsix-4-bright_LIQo.jpg');
     background-size: cover;
     background-position: center;
     color: white;
