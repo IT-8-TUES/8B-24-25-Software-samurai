@@ -31,7 +31,7 @@ header h1 {
 }
 
 nav {
-  background-color: slategray; 
+  background-color: black; 
   display: flex;
   justify-content: center;
   width: 100%;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: mediumturquoise;
+  background-color: orange;
   color: white;
 }
 
@@ -85,15 +85,24 @@ footer {
   box-sizing: border-box;
 }
 
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
 p a {
   color: navy; 
   text-decoration: none;
 }
 
-a.button {
+.button {
   background-color: navy; 
   color: white;
-  padding: 12px 20px;
+  padding: 20px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 8px;
@@ -101,13 +110,20 @@ a.button {
   text-decoration: none;
 }
 
-a.button:hover {
+.button:hover {
   background-color: mediumturquoise;
   color: white;
 }
 
 .hero-section {
     background-image: url('https://media.gq-magazine.co.uk/photos/66475ecbcf1b545facd5ef5b/master/w_1600%2Cc_limit/strength_training_vs_cardio__0000_GettyImages-1452574896.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.Welcome{
+    background-image: url('welcomeImage.jpg');
     background-size: cover;
     background-position: center;
     color: white;
