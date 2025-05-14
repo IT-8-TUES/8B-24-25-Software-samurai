@@ -70,7 +70,7 @@ section {
 }
 
 h2 {
-  color: white; 
+  color: navy; 
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -95,7 +95,7 @@ footer a:hover{
 }
 
 p a {
-  color: white; 
+  color: navy; 
   text-decoration: none;
 }
 
@@ -122,11 +122,19 @@ p a {
     color: white;
 }
 
+.hero-section h2{
+  color: white;
+}
+
 .Welcome{
     background-image: url('welcomeImage.jpg');
     background-size: cover;
     background-position: center;
     color: white;
+}
+
+.Welcome h2{
+  color: white;
 }
 
 .Explore{
@@ -135,3 +143,26 @@ p a {
     background-position: center;
     color: white;
 }
+
+.Explore h2{
+  color: white;
+}
+
+.Explore a{
+  color: white;
+}
+
+.Mission{
+    background-image: url('OurMission.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.who{
+    background-image: url('https://media.istockphoto.com/id/1079594684/vector/silhouette-of-a-man-different-hairstyles-vector.jpg?s=612x612&w=0&k=20&c=rb_Go201kLbpFtCmQ__5iB08hPoMgW4IDqZcXn9D-Ak=');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
