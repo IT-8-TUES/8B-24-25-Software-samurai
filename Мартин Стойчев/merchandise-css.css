@@ -74,15 +74,15 @@ nav a:hover {
 }
 
 #clothes {
-    background-image: url('https://s.alicdn.com/@sc04/kf/H91543903d9164bb7b244122884dc16cc3.jpg_720x720q50.jpg');
+    background-image: url('gym\ clothes.jpg');
 }
 
 #equipment {
-    background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); /* Пример */
+    background-image: url('gym\ equipment.jpg');
 }
 
 #supplements {
-    background-image: url('https://images.unsplash.com/photo-1623697040770-8ca7438f9081?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); /* Пример */
+    background-image: url('gym\ supplements.jpg');
 }
 
 h1 {
