@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BMR calculator</title>
+        <link rel="stylesheet" href="BMR.css">
+    </head>
+    <body>
+
+    <header>
+        <img src="../Даниел Цвятков/weightlifting.png" class="logo">
+        <h1>PowerFit Gym</h1>
+    </header>
+
+    <nav>
+        <a href="../Даниел Цвятков/homepage.html">Home</a>
+        <a href="../Даниел Цвятков/about.html">About us</a>
+        <a href="foodtracker.html">Food Tracker</a>
+        <a href="../Мартин Стойчев/muscles.html">Muscle Guide</a>
+        <a href="../Мартин Стойчев/merchandise.html">Merchandise</a>
+    </nav>
+
+    
+     <h1 id="BMR">
+         BMR Calculator
+     </h1>
+     
+    <div>
+    <p id="mBMR">Find out your Basal Metabolic Rate <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate" title="Information about BMR" target="_blank">(BMR)</a> below.</p>
+
+    <div>
+        <form id="dataForm">
+            <div>
+                <input type="number" id="weight" name="weight" class="form-control" step="0.1" required placeholder="Enter your current weight(kg)">
+            </div>
+
+            <div>
+                <input type="number" id="height" name="height" class="form-control" step="0.1" required placeholder="Enter your current height(cm)">
+            </div>
+
+            <div>
+                <input type="number" id="age" name="age" class="form-control" min="0" required placeholder="Enter your current age(years)">
+            </div>
+
+            <div>
+                <label for="gender" class="form-label">Gender:</label>
+                <select id="gender" name="gender" class="form-select" required>
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Calculate BMR</button>
+        </form>
+    </div>
+
+    <div id="loading" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Calculating...</span>
+        </div>
+        <p>Calculating your BMR...</p>
+    </div>
+
+    <div id="resultContainer" style="display: none;">
+        <div class="alert alert-success">
+            <h3>Your BMR Result</h3>
+            <p id="responseMessage" class="fs-4 fw-bold"></p>
+        </div>
+    </div>
+</div>
+<script src="BMR.js"></script>
+
+<footer>
+        <p>© 2025 PowerFit. All rights reserved.</p>
+        <a href="../Даниел Цвятков/about.html">About Us</a> |
+        <a href="../Даниел Цвятков/about.html#contact">Contact Us</a>
+    </footer>
+    
+
+    </body>
+</html>
+
+    
