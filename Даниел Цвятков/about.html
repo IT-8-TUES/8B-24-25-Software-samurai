@@ -16,7 +16,7 @@
 
     <nav>
       <a href="homepage.html">Home</a>
-      <a href="calories.html">Calories Calculator</a>
+      <a href="../Явор Коцев/BMR.html">Calories Calculator</a>
       <a href="foodtracker.html">Food Tracker</a>
       <a href="../Мартин Стойчев/muscles.html">Muscle Guide</a>
       <a href="../Мартин Стойчев/merchandise.html">Merchandise</a>
@@ -56,5 +56,15 @@
         <a href="about.html#contact">Contact Us</a>
 </footer>
 
+    <script>
+        document.querySelectorAll('section').forEach(section => {
+  section.addEventListener('mouseover', () => {
+    section.classList.add('hovered');
+  });
+  section.addEventListener('mouseout', () => {
+    section.classList.remove('hovered');
+  });
+});
+    </script>
 </body>
 </html>
