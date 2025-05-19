@@ -58,6 +58,13 @@ nav a:hover {
   color: white;
 }
 
+.here{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
 section {
   max-width: 900px;
   width: 90%;

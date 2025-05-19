@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0; /* Премахваме default margin */
+    margin: 0;
 }
 
 header {
@@ -56,8 +56,15 @@ nav a:hover {
     color: white;
 }
 
+.here{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
 .section {
-    height: 800px;
+    height: 600px;
     max-width: 900px;
     width: 90%;
     margin: 30px auto;
