@@ -41,5 +41,16 @@
         <a href="../Даниел Цвятков/about.html">About Us</a> |
         <a href="../Даниел Цвятков/about.html#contact">Contact Us</a>
     </footer>
+
+    <script>
+        document.querySelectorAll('section').forEach(section => {
+  section.addEventListener('mouseover', () => {
+    section.classList.add('hovered');
+  });
+  section.addEventListener('mouseout', () => {
+    section.classList.remove('hovered');
+  });
+});
+    </script>
 </body>
 </html>
