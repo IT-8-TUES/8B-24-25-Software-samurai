@@ -89,6 +89,7 @@ h2 {
   color: navy; 
   font-size: 32px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -136,10 +137,12 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section h2{
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Welcome{
@@ -158,10 +161,12 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Explore h2{
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Explore a{
@@ -173,6 +178,7 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .who{
@@ -180,5 +186,6 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
