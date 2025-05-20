@@ -1,0 +1,267 @@
+body{
+  margin:0rem;
+  background-image: url('https://i.pinimg.com/736x/24/a3/01/24a3012a9208c674ff1ae0dede68ac8a.jpg');
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 3.125rem 0;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+header {
+  background-color: navy; 
+  color: white;
+  padding: 30px;
+  font-size: 36px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-size: 48px; 
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  height: 120px;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: black; 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: white;
+  margin: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.here{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90rem;
+    height:25rem;
+    margin-left:4rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.875rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.form {
+    flex: 1;
+    margin-right: 1.25rem;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.625rem;
+    display: block;
+    text-align: left;
+}
+
+#food, #amount {
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0.313rem;
+    margin-bottom: 1.25rem;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 0.75rem 1.563rem;
+    font-size: 1.2rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 3rem;
+}
+
+button:hover {
+    background-color: #3f4c8c;
+}
+
+
+.results {
+    flex: 2;
+}
+
+.results p {
+    margin: 0.625rem 0;
+}
+
+.bar {
+    width: 40rem;
+    height: 2rem;
+    background-color: #ddd;
+    border-radius: 0.625rem;
+    overflow: hidden;
+    margin-top: 0.625rem;
+    position: relative;
+    box-shadow: inset 0 0 0.313rem rgba(0, 0, 0, 0.1); 
+}
+
+
+.fill {
+    height: 100%;
+    background-color: #66bb6a;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.added-foods {
+    flex: 1;
+    background-color:navy;
+    padding: 1rem;
+    border-radius: 0.625rem;
+   
+    box-shadow: 0 0.25rem 0.5rem rgba(147, 145, 145, 0.1);
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+.added-foods h3 {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+#food-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#food-list li {
+    margin-bottom: 0.938rem;
+    background-color: #f0f0f0;
+    padding: 0.625rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#food-list li:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+}
+
+.remove-btn {
+    padding: 0.5rem;
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin:0.5rem
+}
+
+.remove-btn:hover {
+    background-color: #e64a19;
+}
+
+
+@media (max-width: 48rem) {
+    .container {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.5rem 0.625rem;
+    }
+
+    .results p {
+        font-size: 1rem;
+    }
+
+    .added-foods {
+        max-height: 18.75rem;
+    }
+}
+#CC{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 4rem;
+  border-style:solid;
+  border-color: navy;
+  padding: 2rem;
+  border-width: 0.7rem;
+  border-radius: 1rem;
+  box-shadow:0 1rem 1.8rem black;
+  text-align: center;
+  margin: 3rem;
+  background-color: white;
+  color:black;
+}
+h2{
+  font-size: 2.8rem;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    background-color: navy;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
