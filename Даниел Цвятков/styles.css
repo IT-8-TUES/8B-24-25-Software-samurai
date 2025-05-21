@@ -190,3 +190,10 @@ p a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.Story{
+    background-image: url('https://fitnessvolt.com/wp-content/uploads/2023/01/How-Many-Push-Ups-You-can-do.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
