@@ -87,7 +87,7 @@ section.hovered {
 }
 
 h2 {
-  color: navy; 
+  color: white; 
   font-size: 32px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -141,11 +141,6 @@ p a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero-section h2{
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
 .Welcome{
     background-image: url('welcomeImage.jpg');
     background-size: cover;
@@ -153,9 +148,6 @@ p a {
     color: white;
 }
 
-.Welcome h2{
-  color: white;
-}
 
 .Explore{
     background-image: url('https://cdn.shopify.com/s/files/1/0141/5242/t/16/assets/fitsix-4-bright_LIQo.jpg');
@@ -166,7 +158,6 @@ p a {
 }
 
 .Explore h2{
-  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -183,7 +174,7 @@ p a {
 }
 
 .who{
-    background-image: url('https://media.istockphoto.com/id/1079594684/vector/silhouette-of-a-man-different-hairstyles-vector.jpg?s=612x612&w=0&k=20&c=rb_Go201kLbpFtCmQ__5iB08hPoMgW4IDqZcXn9D-Ak=');
+    background-image: url('https://img.freepik.com/free-photo/young-man-training-gym-bodybuilding_23-2149552275.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -199,7 +190,7 @@ p a {
 }
 
 .contact{
-    background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQHdjPonGBpsqQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1708946985051?e=2147483647&v=beta&t=VLUm1JSngIvflquJ4FS2b47TeoUwX4sHI7ZiGllwZbc');
+    background-image: url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1sfGvb4th4WplQzYcfBUYN/5c3a1900371202779b562a020eb22d34/iStock-1192079984__1_.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000');
     background-size: cover;
     background-position: center;
     color: white;
