@@ -147,21 +147,3 @@ section.hovered {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
-
-/* Респонсивност */
-@media (max-width: 600px) {
-    .section {
-        height: 500px;
-        padding: 20px;
-    }
-    .button {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-    header h1 {
-        font-size: 36px;
-    }
-    .logo {
-        height: 80px;
-    }
-}
