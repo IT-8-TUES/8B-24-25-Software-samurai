@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('https://i.pinimg.com/736x/24/a3/01/24a3012a9208c674ff1ae0dede68ac8a.jpg');
+    background-image: url('images/background.jpg');
     color: darkslategray;
     font-size: 16px;
     display: flex;
@@ -82,15 +82,15 @@ nav a:hover {
 }
 
 #clothes {
-    background-image: url('gym\ clothes.jpg');
+    background-image: url('images/gym\ clothes.jpg');
 }
 
 #equipment {
-    background-image: url('gym\ equipment.jpg');
+    background-image: url('images/gym\ equipment.jpg');
 }
 
 #supplements {
-    background-image: url('gym\ supplements.jpg');
+    background-image: url('images/gym\ supplements.jpg');
 }
 
 h1 {

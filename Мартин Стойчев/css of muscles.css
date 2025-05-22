@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://i.pinimg.com/736x/24/a3/01/24a3012a9208c674ff1ae0dede68ac8a.jpg');
+    background-image: url('images/background.jpg');
     color: darkslategray;
     font-size: 1em;
     display: flex;
@@ -65,27 +65,39 @@ nav a:hover {
     transform: scale(1.02);
 }
 
-/* Секция за изображения на тялото */
-.body-section {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 50px;
-    background-color: #fff;
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
-.body-part {
-    text-align: center;
+.img {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    background-color: navy;
 }
 
-.muscle {
-    fill: #888;
-    cursor: pointer;
-    transition: transform 0.2s;
+.img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+
 }
 
-.muscle:hover {
-    transform: scale(1.2);
+.img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.img a {
+    display: block;
+    text-decoration: none;
 }
 
 footer {
