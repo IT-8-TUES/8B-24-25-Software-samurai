@@ -3,7 +3,7 @@ body {
   background-color: lightgray;
   background-image: url('../Мартин Стойчев/images/background.jpg');
   color: darkslategray;
-  font-size: 16px;
+  font-size: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
