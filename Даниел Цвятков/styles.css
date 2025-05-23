@@ -1,7 +1,7 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: lightgray;
-  background-image: url('../Мартин\ Стойчев/images/background.jpg');
+  background-image: url('../Мартин Стойчев/images/background.jpg');
   color: darkslategray;
   font-size: 16px;
   display: flex;
@@ -39,17 +39,17 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 10px;
+  padding: 0.625em;
   box-sizing: border-box;
 }
 
 nav a {
   color: white;
-  margin: 10px 20px;
+  margin: 0.625em 1.25em;
   font-weight: bold;
-  font-size: 18px;
-  padding: 12px 20px;
-  border-radius: 6px;
+  font-size: 1.125em;
+  padding: 0.75em 1.25em;
+  border-radius: 0.375em;
   text-decoration: none;
   transition: background-color 0.3s ease; 
 }
@@ -62,42 +62,42 @@ nav a:hover {
 .here{
     background-color: orange;
     color: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.125em 0.375em rgba(0, 0, 0, 0.3);
     transform: scale(1.02);
 }
 
 section {
-  max-width: 900px;
+  max-width: 56.25em;
   width: 90%;
-  margin: 30px;
-  padding: 30px;
+  margin: 1.875em;
+  padding: 1.875em;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0.625em;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 4px 10px black;
+  box-shadow: 0 0.25em 0.625em black;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section.hovered {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.5em 1.25em rgba(0, 0, 0, 0.5);
 }
 
 h2 {
   color: white; 
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  margin-bottom: 1.25em;
+  text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 footer {
   background-color: navy;
   color: white;
-  font-size: 18px;
-  padding: 20px;
+  font-size: 1.125em;
+  padding: 1.25em;
   width: 100%;
   text-align: center;
   box-sizing: border-box;
@@ -120,10 +120,10 @@ p a {
 .button {
   background-color: navy; 
   color: white;
-  padding: 20px;
-  font-size: 16px;
+  padding: 1.25em;
+  font-size: 1em;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 0.5em;
   transition: background-color 0.3s ease;
   text-decoration: none;
 }
@@ -138,7 +138,7 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .Welcome{
@@ -148,17 +148,16 @@ p a {
     color: white;
 }
 
-
 .Explore{
     background-image: url('https://cdn.shopify.com/s/files/1/0141/5242/t/16/assets/fitsix-4-bright_LIQo.jpg');
     background-size: cover;
     background-position: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .Explore h2{
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .Explore a{
@@ -170,7 +169,7 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .who{
@@ -178,7 +177,7 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .Story{
@@ -186,7 +185,7 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .contact{
@@ -194,7 +193,7 @@ p a {
     background-size: cover;
     background-position: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
 }
 
 .contact a{
