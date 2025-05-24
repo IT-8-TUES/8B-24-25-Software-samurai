@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-image: url('images/background.jpg');
     color: darkslategray;
-    font-size: 1em;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,8 +12,8 @@ body {
 header {
     background-color: navy;
     color: white;
-    padding: 30px;
-    font-size: 36px;
+    padding: 1.875rem;
+    font-size: 2.25rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,13 +22,13 @@ header {
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
 }
 
 .logo {
-    height: 120px;
-    margin-right: 20px;
+    height: 7.5rem;
+    margin-right: 1.25rem;
 }
 
 nav {
@@ -36,17 +36,17 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0.625em;
+    padding: 0.625rem;
     box-sizing: border-box;
 }
 
 nav a {
     color: white;
-    margin: 0.625em 1.25em;
+    margin: 0.625rem 1.25rem;
     font-weight: bold;
-    font-size: 1.125em;
-    padding: 0.75em 1.25em;
-    border-radius: 0.375em;
+    font-size: 1.125rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.375rem;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
@@ -59,75 +59,75 @@ nav a:hover {
 .here {
     background-color: orange;
     color: white;
-    box-shadow: 0 0.125em 0.375em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
     transform: scale(1.02);
 }
 
 .section {
-    height: 37.5em;
-    max-width: 56.25em;
+    height: 37.5rem;
+    max-width: 56.25rem;
     width: 90%;
-    margin: 1.875em auto;
-    padding: 1.875em;
+    margin: 1.875rem auto;
+    padding: 1.875rem;
     background-color: white;
-    border-radius: 0.625em;
+    border-radius: 0.625rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0 0.25em 0.625em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #clothes {
-    background-image: url('images/gym\ clothes.jpg');
+    background-image: url('images/gym clothes.jpg');
 }
 
 #equipment {
-    background-image: url('images/gym\ equipment.jpg');
+    background-image: url('images/gym equipment.jpg');
 }
 
 #supplements {
-    background-image: url('images/gym\ supplements.jpg');
+    background-image: url('images/gym supplements.jpg');
 }
 
 h1 {
     color: white;
-    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
-    font-size: 2em;
-    margin-bottom: 1.25em;
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 .button {
     display: inline-block;
     background-color: navy;
     color: white;
-    padding: 0.9375em 1.875em;
-    font-size: 1em;
+    padding: 0.9375rem 1.875rem;
+    font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button:hover {
     background-color: orange;
-    box-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.3);
 }
 
 .button:active {
     transform: scale(0.95);
-    box-shadow: 0 0.125em 0.375em rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.2);
 }
 
 footer {
     background-color: navy;
     color: white;
-    font-size: 1.125em;
-    padding: 1.25em;
+    font-size: 1.125rem;
+    padding: 1.25rem;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -144,5 +144,5 @@ footer a:hover {
 
 section.hovered {
     transform: scale(1.05);
-    box-shadow: 0 0.5em 1.25em rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.5);
 }
